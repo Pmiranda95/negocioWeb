@@ -1,9 +1,9 @@
-import { Footer } from "./Componentes/layout/footer";
+import { Home } from "./Componentes/pages/home/home";
 
 function App() {
   return (
     <div>
-      <Footer />
+      <Home />
     </div>
   );
 }

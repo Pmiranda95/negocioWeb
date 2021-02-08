@@ -3,19 +3,18 @@ import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
 import BottomNavigation from '@material-ui/core/BottomNavigation';
 import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
 const useStyles = makeStyles((theme) => ({
     root: {
       flexGrow: 1,
-      background:"#393E41",
+      background:"#393E41", 
       //height:100
     },
     rootMenu: {
         width: 600,
         background:"#393E41",
-        height:70
+        height:60
     },
     title: {
       flexGrow: 1,
